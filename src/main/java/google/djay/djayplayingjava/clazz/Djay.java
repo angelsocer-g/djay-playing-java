@@ -1,8 +1,13 @@
 package google.djay.djayplayingjava.clazz;
 
+import google.djay.djayplayingjava.annotation.DjayAnnotation;
+import google.djay.djayplayingjava.annotation.EwanAnnotation;
+
 import java.lang.reflect.Field;
 import java.util.Arrays;
 
+@DjayAnnotation(true)
+@EwanAnnotation(value = true, fatherName = "djay", motherName = "stella")
 public class Djay {
 
     private String name;
